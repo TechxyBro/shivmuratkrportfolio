@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdn.jsdelivr.net/npm/remixicon@4.3.0/fonts/remixicon.css" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+    <title>Shivmurat Sir</title>
+</head>
+<body>
+    <div class="nav">
+        <div class="navprt1">
+            <h1>Shivmurat</h1>
+        </div>
+        <!-- Add the menu icon for mobile view -->
+        <i class="ri-menu-fill menu-icon" onclick="toggleMenu()"></i>
+
+        <!-- Navigation links -->
+        <div class="navprt2">
+            <a href="#">Home</a>
+            <a href="#">About Me</a>
+            <a href="#">Services</a>
+            <a href="#">Explore</a>
+        </div>
+
+        <!-- Contact Us button -->
+        <div class="navprt3">
+            <button>Contact Me</button>
+        </div>          
+    </div>
+
+    <!-- Main content -->
+    <div class="content">
+        <div class="about">
+            <h1>Hello I am, <span>Shivmurat</span></h1>
+            <h5>I am Shivmurat Kori, an English teacher at Shree Rastriya Secondary School. I am passionate about fostering a love for the English language among my students and helping them develop strong communication skills. With 2 years of teaching experience, I strive to create an engaging and inclusive classroom environment where every student feels valued and inspired to learn. My goal is to empower students not just academically, but also to prepare them for real-world challenges.</h5>
+            <a href="https://www.facebook.com/profile.php?id=100031216246714" target="_blank"><button>Facebook</button></a>
+            <button>Projects</button>
+        </div>
+    </div>
+
+    <script>
+        function toggleMenu() {
+            const navbarMenu = document.querySelector('.navprt2');
+            navbarMenu.classList.toggle('show');
+        }
+    </script>
+    <footer class="footer">
+        <p>&copy; 2024 Shivmurat Kori. All rights reserved.</p>
+        <p>Created by <a href="https://suryaprt.netlify.app/" target="_blank"> @Surya Prakash</a></p>
+    </footer>
+    
+</body>
+</html>
